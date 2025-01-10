@@ -292,4 +292,46 @@ td{
     color: #0E0E0E;
 }
 
+.donate-box{
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+}
+.donate-amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 
+}
+.tk{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 128px;
+    border: 1px solid #0E0E0E26;
+border-radius: 16px;
+color: #0E0E0ECC;
+background-color: #FFFFFF;
+font-weight: 700;
+font-size: 40px;
+padding: 30px;
+
+}
+.donate h1{
+    color: #0E0E0E;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+.donate p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0E0E0EB2;
+    margin-bottom: 32px;
+}
+.exceptional{
+    background-color: #C6E4D6;
+}
