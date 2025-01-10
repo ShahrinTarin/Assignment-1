@@ -133,6 +133,7 @@ background-color: #F7EBCF;
 .btn-3{
     background-color: #FFC239;
 }
+
 .quote{
     width: 1280px;
     height: 230px;
@@ -216,6 +217,78 @@ td{
    background-color: #C6E4D6;
    font-weight: 600;
     font-size: 13px;
+    color: #0E0E0E;
+}
+
+/* section news start here */
+.news{
+    width: 1280px;
+    margin: auto;
+    
+}
+.tittle h1{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.tittle p{
+    color: #0E0E0EB2;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.satelite-img{
+    border-radius: 20px;
+}
+.news-box{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 80px;
+
+}
+.news-card{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 48px;
+    border-radius: 24px;
+}
+.news-content h2{
+    font-weight: 700;
+    color: #0E0E0ECC;
+    font-size: 32px;
+}
+.news-content{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    
+}
+.news-content p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #0E0E0EB2;
+
+}
+.news-btn{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 13px 22px;
+    color: #FFFF;
+   border-radius: 8px;
+   border: none;
+   cursor: pointer;
+   background-color: #006A50;
+   margin-top: 20px;
+}
+.news-btn:hover{
+    background-color: #0e0e0e42;
     color: #0E0E0E;
 }
 
