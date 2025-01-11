@@ -34,6 +34,12 @@ nav ul li{
     color: #006A50;
     font-size: 18px;
     font-weight: 600;
+    background-color: rgba(255, 228, 196, 0.116);
+    cursor: pointer;
+}
+.nav-btn:hover{
+    background-color: #0e0e0e42;
+    color: #0E0E0E;
 }
 /* section landingpage starts here */
 #landingpage{
@@ -111,7 +117,7 @@ font-weight: 400;
  max-width: 1320px;
 }
 .card-opt{
- width: 350px;
+ width: 302px;
  height: 280px;
  background-color: #FFFFFF;
  border-radius: 15px;
