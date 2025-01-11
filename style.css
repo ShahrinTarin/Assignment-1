@@ -81,44 +81,44 @@ nav ul li{
 } 
 /* optional section pillars starts */
 .pillars{
-       max-width: 1320px;
-        height: 324px;
-        margin: auto;
-        margin-bottom: 80px;
+    max-width: 1320px;
+     height: 324px;
+     margin: auto;
+     margin-bottom: 80px;
 }
 .pillars h1{
-    font-weight: 700;
+ font-weight: 700;
 font-size: 37px;
 color: #0E0E0E;
 margin-bottom: 30px;
 }
 .cardbox-optional h2{
-    color: #0E0E0ECC;
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 24px;
-    margin-bottom: 12px;
+ color: #0E0E0ECC;
+ font-weight: 700;
+ font-size: 20px;
+ margin-top: 24px;
+ margin-bottom: 12px;
 }
 .cardbox-optional p{
-    color: #0E0E0EB2;
-    font-size: 15px;
-   line-height: 22px;
+ color: #0E0E0EB2;
+ font-size: 15px;
+line-height: 22px;
 font-weight: 400;
 }
 .cardbox-optional{
-    display: flex;
-    gap: 24px;
-    max-width: 1320px;
+ display: flex;
+ gap: 24px;
+ max-width: 1320px;
 }
 .card-opt{
-    width: 350px;
-    height: 280px;
-    background-color: #FFFFFF;
-    border-radius: 15px;
-    border: 1px solid #0E0E0E26;
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
+ width: 350px;
+ height: 280px;
+ background-color: #FFFFFF;
+ border-radius: 15px;
+ border: 1px solid #0E0E0E26;
+ padding: 24px;
+ display: flex;
+ flex-direction: column;
 
 }
  /* section future starts here */
