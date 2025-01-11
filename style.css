@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgba(255, 228, 196, 0.062);
+    background-color: rgba(255, 228, 196, 0.116);
     font-family: "Fira Sans", serif;
 }
 /* section landingpage starts here */
@@ -212,7 +212,7 @@ td{
     font-size: 38px;
 }
 .agree{
-   padding: 10px 14px;
+   padding: 10px 0;
    border-radius: 4px;
    background-color: #C6E4D6;
    font-weight: 600;
@@ -235,8 +235,8 @@ td{
 .tittle p{
     color: #0E0E0EB2;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 24px;
 }
 .satelite-img{
     border-radius: 20px;
@@ -317,7 +317,16 @@ background-color: #FFFFFF;
 font-weight: 700;
 font-size: 40px;
 padding: 30px;
+cursor: pointer;
 
+}
+.tk:hover{
+    background-color: #0e0e0e42;
+        color: #0E0E0E;
+}
+/* section donate-box starts here */
+.donate-box{
+    margin-bottom: 80px;
 }
 .donate h1{
     color: #0E0E0E;
@@ -334,4 +343,134 @@ padding: 30px;
 }
 .exceptional{
     background-color: #C6E4D6;
+}
+.donate-box input{
+    width: 1050px;
+    height: 64px;
+    padding: 20px 40px; 
+    margin: 32px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0E0E0E4D;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #0E0E0E26;
+}
+.donate-btn{
+border-radius: 8px;
+color: #FFFFFF;
+background-color: #006A50;
+font-weight: 600;
+font-size: 18px;
+padding: 18px 34px;
+cursor: pointer;
+border: none;
+}
+
+.donate-btn:hover{
+    background-color: #0e0e0e42;
+        color: #0E0E0E;
+}
+/* section subscribe starts here */
+.subscribe{
+    height: 395px;
+    width: 1280px;
+    margin: auto;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center ;
+    border-radius: 24px;
+    margin-bottom: 80px;
+}
+.subscribe-des h1{
+    color: #0E0E0E;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 16px;
+
+}
+.subscribe-des p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0EB2;
+    margin-bottom: 24px;
+}
+.subscribe input{
+    padding: 12px 18px;
+    width: 600px;
+    height: 55px;
+    border: none;
+    border-radius: 8px 0 0 8px ;
+}
+
+.subscribe input[value]{
+    color:#07021156;
+    font-size: 16px;
+ font-weight: 400;
+ padding-left: 38px;
+ border: none;
+    border-bottom: 1px solid #0E0E0E26;
+ 
+}
+.search{
+    display: flex;
+     gap: 0;
+     text-align: center;
+     justify-content: center;
+     margin-bottom: 24px;
+}
+.green{
+    border: none;
+    padding: 2px 46px;
+    border-radius: 0 8px 8px 0;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color: #006A50;
+    font-family: "Fira Sans", serif;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #0E0E0E26;
+}
+.green:hover{
+    background-color: #0e0e0e42;
+        color: #0E0E0E;
+}
+footer{
+    width: 1600px;
+    height: 240px;
+    margin: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+}
+.icons h1{
+    font-weight: 700;
+    font-size: 35px;
+    color: #0E0E0E;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+
+}
+.icon{
+    display: flex;
+    gap: 24px;
+}
+.border{
+    border: none;
+    border-bottom: 1px solid #0E0E0E1A;
+    width: 1122px;
 }
