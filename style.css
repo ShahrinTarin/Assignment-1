@@ -8,12 +8,39 @@ body{
     background-color: rgba(255, 228, 196, 0.116);
     font-family: "Fira Sans", serif;
 }
+/* nav optional strts */
+nav{
+    max-width: 1320px;
+    margin:40px auto;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+   list-style:none;
+}
+.nav-li{
+    font-size: 32px;
+    font-weight: 700;
+}
+.nav-btn{
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 15px 30px;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+}
 /* section landingpage starts here */
 #landingpage{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 80px auto;
+    margin: 20px auto 80px;
     max-width: 1320px;
     height: 560px;
     gap: 64px;
@@ -51,6 +78,48 @@ body{
 .btn:hover{
     background-color: #0e0e0e42;
     color: #0E0E0E;
+} 
+/* optional section pillars starts */
+.pillars{
+       max-width: 1320px;
+        height: 324px;
+        margin: auto;
+        margin-bottom: 80px;
+}
+.pillars h1{
+    font-weight: 700;
+font-size: 37px;
+color: #0E0E0E;
+margin-bottom: 30px;
+}
+.cardbox-optional h2{
+    color: #0E0E0ECC;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.cardbox-optional p{
+    color: #0E0E0EB2;
+    font-size: 15px;
+   line-height: 22px;
+font-weight: 400;
+}
+.cardbox-optional{
+    display: flex;
+    gap: 24px;
+    max-width: 1320px;
+}
+.card-opt{
+    width: 350px;
+    height: 280px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid #0E0E0E26;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+
 }
  /* section future starts here */
 .future{
